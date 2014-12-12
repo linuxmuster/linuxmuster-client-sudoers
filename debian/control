@@ -1,0 +1,16 @@
+Source: linuxmuster-client-sudoers
+Section: admin
+Priority: optional
+Maintainer: Ruediger Beck <jeffbeck@web.de>
+Build-Depends: debhelper , perl-base, fakeroot
+Standards-Version: 3.5.2
+
+
+
+Package: linuxmuster-client-sudoers
+Architecture: all
+Suggests: 
+Depends: 
+Description: sudoers.d files for the Linuxmuster-Client
+ The package overwrites a sudoers.d file
+
