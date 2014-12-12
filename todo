@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Add multiple sudoers files to do the following:
+
+NAME/DEBCONF:               DESCRIPTION_
+
+teachers-install:           Teachers can install everything
+users-install:              Everybody kann install everything
+teachers-all:               Teachers can do everything. others nothing 
+teachers-all-users-install: Teachers can do everything, users can install 
+teachers-all-users-all:     Teachers and users can do everything 
+
+------------------------------------------------------------
+- Make the above selectable by configure script
+- save the name in a debconf value

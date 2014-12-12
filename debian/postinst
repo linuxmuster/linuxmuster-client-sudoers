@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for leoclient2-leovirtstarter-client
+# postinst script for linuxmuster-client-sudoers
 #
 # see: dh_installdeb(1)
 
