@@ -3,14 +3,6 @@
 # It will be updated by the package linuxmuster-client-sudoers  #
 #################################################################
 
-# USER administrator may gain root privileges
-# for all commands, using password
-administrator ALL=(ALL) ALL
-
-# USER pgmadmin may gain root privileges
-# for all commands, using password
-pgmadmin ALL=(ALL) ALL
-
 # GROUP teachers and GROUP p_sudo may gain root priviliges
 # for all commands, using password
 %teachers ALL=(ALL) ALL
